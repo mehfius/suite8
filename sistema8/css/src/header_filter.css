@@ -1,0 +1,38 @@
+
+body[filter="1"] boxfilter{display:block;}
+boxfilter{display:none;background-color: #fff; position: fixed; right: 10px;top: 58px;z-index: 10;box-shadow: 0px 0px 10px -7px #000;}
+
+boxfilter > input {height: 60px;text-indent:55px;}
+
+boxfilter > input.hide {display: none}
+
+boxfilter > icon {
+  position:absolute;
+  left:20px;
+  top:0;
+  border: none;
+  font-size: 16pt;
+  line-height: 1;
+  color: #999;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+boxfilter > icon:before {
+  content: "\e986"
+}
+
+
+
+/* Filter SelectSearch*/
+boxfilter selectsearch {float:left;position:relative;}
+boxfilter selectsearch div {display:block;margin:5px 0 0 10px;z-index:999;float: left;overflow-x: hidden;overflow-y: auto;position:absolute;background-color:#fff;max-height:200px;}
+boxfilter selectsearch opt {float:left;width:100%;cursor:pointer;display:none;height:48px;}
+boxfilter selectsearch opt:hover{background-color:#eee;}
+
+boxfilter selectsearch opt[selected="true"] label{font-weight:bold;}
+boxfilter selectsearch opt > label {float:left;padding:16px 0 0 10px;cursor:pointer;    width: 250px;overflow-y: auto; overflow-x: hidden;white-space: nowrap;}
+boxfilter selectsearch opt > figure {background-color:#444;width:48px;height:48px;float:left;background-position:center center;background-size:cover;background-repeat:no-repeat;}
+boxfilter selectsearch input[name="finder"] {text-indent:50px;width:350px;padding:20px;}
+boxfilter selectsearch labelfigure {background-size: cover;background-position: center;background-color: #444;width: 50px;height: 50px;position: absolute;left: 5px;top: 5px;}
+boxfilter selectsearch icon{background-color: #fff;position: absolute;right: 2px;top:2px;cursor:pointer;padding:20px;}

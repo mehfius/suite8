@@ -1,0 +1,9 @@
+
+/* Select 3 */
+window form selectajax {border:1px solid #ccc;display:none;margin:5px 0 0 10px;z-index:999;float: left;overflow-x: hidden;overflow-y: auto;position:absolute;left:0;top:90px;background-color:#fff;max-height:198px;min-width: 80%;padding:5px;}
+window form selectajax > opt {float:left;width:100%;cursor:pointer;height:24px;font-size:90%;margin-bottom:5px;}
+window form selectajax > opt:hover{background-color:#eee;}
+window form selectajax > opt:nth-last-child(1){margin-bottom:0;}
+window form selectajax > opt[selected="true"] label{font-weight:bold;}
+window form selectajax > opt > label {float:left;padding: 5px 5px 0 5px;cursor:pointer;font-size:90%;}
+window form selectajax > opt > figure {background-color:#444;width:24px;height:24px;float:left;background-position:center center;background-size:cover;background-repeat:no-repeat;}

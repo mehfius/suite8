@@ -1,0 +1,7 @@
+loading{background-color:#fff;padding:10px;display:none;position:fixed;z-index:560;top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;box-shadow: 0px 0px 5px 1px #444;}
+
+body[loading="1"] loading{display:block;}
+
+loading icon {position: absolute;-moz-animation: spin 1.0s infinite linear;-webkit-animation: spin 1.0s infinite linear;line-height: 1.3}
+
+loading label{margin-left:25px;}

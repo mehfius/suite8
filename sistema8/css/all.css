@@ -1,0 +1,1601 @@
+
+
+
+/* ######## 100-default.css ######## */
+
+
+html,
+body {
+  height: 100%
+}
+
+html,
+input,
+button,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+textarea,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Droid Sans", sans-serif
+}
+
+html{}
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url('/sistema8/fonts/src/droidsans.woff') format('woff')
+}
+ 
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('icomoon'), local('icomoon'), url('/sistema8/fonts/icomoon/fonts/icomoon.woff') format('woff')
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+a {
+  text-decoration: none;
+  color: #444444
+}
+
+body {
+  color: #444444;
+  background-color: #eee;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position:relative;
+  background-size:cover;
+      background-position: center center;
+}
+
+
+
+h1 {
+  font-size: 200%;
+  line-height: 1
+}
+
+h2 {
+  font-size: 150%;
+  line-height: 1.5
+}
+
+info {
+  background-color: #ffffc2;
+  line-height: 1;
+  padding: 10px;
+  margin: 5px;
+  float: right;
+  border-radius: 10px;
+  font-style: italic;
+  color: #000000
+}
+
+erro {
+  border: 1px solid #FCAFB0;
+  background-color: #FEB9B9;
+  line-height: 1;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  float: right;
+  border-radius: 5px;
+  font-style: italic;
+  color: #9D201A
+}
+
+
+
+
+body > section > section > a {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:link {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:visited {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:hover {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:active {
+  color: #444444;
+  text-decoration: none
+}
+
+body > section > section > h1 {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+  padding-bottom: 10px
+}
+
+filtro {
+  width: 100%;
+  float: left;
+  margin: 10px 0 10px 0
+}
+
+g > c:link {
+  text-decoration: none;
+  color: #444
+}
+
+g > c:visited {
+  text-decoration: none;
+  color: #444
+}
+
+g > c:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #004D92
+}
+
+g > c:active {
+  text-decoration: none;
+  color: #444
+}
+
+vtitle {
+  width: 96%;
+  margin: 0px 2% 15px 2%;
+  float: left
+}
+
+
+ranking {
+  float: right;
+  width: 300px;
+  margin: 0px 2% 0;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s
+}
+
+ranking[show="1"] {
+  max-height: 1000px
+}
+
+ranking div {
+  padding: 10px
+}
+
+ranking line {
+  float: left;
+  width: 100%
+}
+
+ranking line span:nth-child(1) {
+  float: left;
+  width: 70%
+}
+
+ranking line span:nth-child(2) {
+  float: left;
+  width: 30%;
+  text-align: right
+}
+
+box {
+  position: relative;
+  color: rgb(15, 137, 202)
+}
+
+nav box {
+  margin-left: 5px;
+  position: absolute
+}
+
+tabela box {
+  margin-right: 20px
+}
+
+tabela box {
+  float: right
+}
+
+box icon:before {
+  content: "\e982"
+}
+
+box icon {
+  position: absolute;
+  -moz-animation: spin 1.0s infinite linear;
+  -webkit-animation: spin 1.0s infinite linear;
+  line-height: 1.3
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg)
+  }
+  100% {
+    -moz-transform: rotate(360deg)
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg)
+  }
+  100% {
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+grade {
+
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  width: 100%;
+  display: none;
+  left: 0;
+  will-change: display;
+      background-color: rgba(0,0,0,0.9);
+}
+
+grade.show {
+  display: block;
+  will-change: display;
+}
+
+grade.hide {}
+
+
+
+
+relationship > span {
+  text-align: center;
+  float: left;
+  padding: 5px;
+  margin: 5px 5px 0 0;
+  line-height: 1;
+  width: 140px;
+  cursor: pointer;
+  background-color: #ccc
+}
+
+relationship > span[show="on"] {
+  background-color: #3D464F;
+  color: #ffffff
+}
+
+g[show="on"] {
+  display: block
+}
+
+relationship > g {
+  display: none;
+  float: left;
+  margin-left: 0.5%;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px
+}
+
+relationship > g > a {
+  float: left;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px 5px 0 0;
+  width: 140px;
+  line-height: 1
+}
+
+relationship > g > c {
+  text-align: center;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  line-height: 1;
+  border-radius: 1px;
+  width: 140px;
+  font-size: 9pt;
+  cursor: pointer;
+  background-color: #CCC
+}
+
+relationship > g > a[on="1"],
+g > c[on="1"] {
+  cursor: pointer;
+  background-color: #3D464F;
+  color: #fff
+}
+
+relationship > g > a[on="2"],
+g > c[on="2"] {
+  cursor: pointer;
+  background-color: #128123;
+  color: #fff
+}
+
+relationship > g > a:link {
+  text-decoration: none;
+  color: #444
+}
+
+relationship > g > a:visited {
+  text-decoration: none;
+  color: #444
+}
+
+relationship > g > a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #666
+}
+
+relationship > g > a:active {
+  text-decoration: none;
+  color: #444;
+  background-color: #666
+}
+
+
+
+
+
+/* ######## 110-largetheme.css ######## */
+
+
+body[logged="1"]{background-image:none !important;}
+body > section { max-width: 1280px;margin:0 auto;width:95%;height:100%;}
+
+view{margin-top:70px;float:left;max-width:100%;}
+body view detalhes {overflow:auto hidden;white-space: nowrap;margin-left:2.5%;width:95%}
+
+body[logged="0"] view{opacity:0;transition: all 0.3s ease-in-out;}
+
+item[category]{ border:1px solid #fff;border-radius:10px;border-radius: 5px;}
+
+item > header {float:left;width:100%;font-size:120%;border-radius: 5px 5px 0 0;}
+item > footer {float:left;width:100%;}
+
+body[modules="colors"] item{ border-left:10px solid;width: 920px; }
+body[modules="category"] item{ border-left:10px solid;width: 920px; }
+item {padding-bottom: 2.5%;position:relative; float: left;  width: 100%;font-size: 80%;background-color:#fff;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
+
+item[me="1"]{cursor:pointer;}
+item[me="0"]{cursor:auto;}
+item[me="1"]:hover{box-shadow: 0 0 7px 0px #999;}
+
+item > p { float:left;line-height:1.5;padding-bottom:0;min-width:95%;padding: 2.5%;font-size:120%;}
+
+item detalhes {float:left;}
+
+item[me="0"] detalhes > figure{cursor:pointer;}
+item detalhes > figure{position:relative;background-position: center center;background-size:cover;margin:0 10px 0 0;}
+item detalhes > figure >label{position:absolute;right:10px;bottom:10px;padding: 5px;background-color: #ccc;color: #fff;}
+
+item data{margin:2.5%;float:right;}
+
+item > header > category {float:left;padding:2.5% 2.5% 0 2.5%;}
+
+item > header > pacientes {float:right;margin:2.5% 0 0 2.5%;}
+
+item > header > icon.icon-share2 {float:left;padding:2.5% 0 2.5% 2.5%;}
+
+
+item > pacientes > div {float:left;}
+item > pacientes > div > icon{margin-right:10px;}
+
+
+item > footer > medicos {float:left;padding:2.5% 2.5% 0 2.5%;white-space:nowrap}
+item > footer > medicos > div {float:right;}
+item > footer > medicos > div > icon{margin-right:10px;}
+
+item > footer > user {float:left;padding:2.5%;}
+item > footer > user > div {float:left;}
+item > footer > user > div > icon{margin-right:10px;}
+
+
+item > footer > share {float:right;padding:2.5% 2.5% 0 2.5%;}
+item > footer > share > div {cursor:auto;float:right;margin-left:10px;}
+item > footer > share > div > icon{margin-right:10px;}
+
+body[suites="1"] > header{background-color:#557cf2;}
+body[suites="1"] window{background-color:#557cf2;}
+body[suites="1"] > login{}
+body[suites="1"][notification="1"] > header icon.icon-bell{background-color:#fff;color:#557cf2;}
+body[suites="1"][filter="1"] > header icon.icon-search{background-color:#fff;color:#557cf2;}
+
+body[suites="2"] > header{background-color:#e47509;}
+body[suites="2"] window{background-color:#e47509;}
+body[suites="2"] > login{}
+
+body[suites="3"] > header{background-color:#bb153f;}
+body[suites="3"] window{background-color:#bb153f;}
+body[suites="3"] > login{}
+
+body[suites="4"] > header{background-color:#6cc781;}
+body[suites="4"] window{background-color:#6cc781;}
+body[suites="4"] > login{}
+
+body[suites="5"] > header{background-color:#f2a555;}
+body[suites="5"] window{background-color:#f2a555;}
+body[suites="5"] > login{}
+
+body[suites="6"] > header{background-color:#cd392e;}
+body[suites="6"] window{background-color:#cd392e;}
+body[suites="6"] > login{}
+
+body[suites="999"] > header{background-color:#0e7f18;}
+body[suites="999"] window{background-color:#0e7f18;}
+body[suites="999"] > login{background-color:#0e7f18;}
+
+
+/* ######## 115-intro.css ######## */
+
+
+intro {padding:20px;color:#000;position:absolute;top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;font-size:40pt;color:#444;}
+
+
+/* ######## 120-adsense.css ######## */
+
+
+adsensevertical{
+  float:right;
+  margin-top:70px;
+}
+
+
+/* ######## 200-nav.css ######## */
+
+
+body > nav {  will-change: left;  position: fixed;  top: 0;  height: 100%;  background-color: #fff;  max-width: 250px;  height: 100%;  overflow-y: auto;  overflow-x: hidden;  box-shadow: 0 0 20px rgba(0, 0, 0, .135);  transition: left 0.2s ease-in 0s;  left: -250px;  z-index: 1000}
+
+body > nav.hide {  transition: left 0.2s ease-in 0s;  left: -250px}
+
+body > nav.show {  transition: left 0.2s ease-in 0s;  left: 0}
+
+body > nav > a {  font-size: 80%;  width: 220px;  float: left;  padding: 10px 0 10px 30px;  color: #222;  cursor: pointer}
+body > nav > a:hover {background-color:#444;color:#fff;}
+body > nav > a:focus {background-color:#444;color:#fff;}
+body > nav > a:active {background-color:#444;color:#fff;}
+
+body > nav > a > count {  font-size: 70%;  color: #0F89CA;  margin:0 30px 0 2px;float:right;line-height:1.7;}
+
+body > nav > span {  font-size: 70%;  color: #888;  border-top: 1px solid #ddd;padding: 20px 0 10px 10px;  float: left;  width: 240px;}
+
+body > nav > h1 {  color: #444;  padding: 20px 0 10px 10px;  float: left;  width: 240px;}
+
+body > nav > profile > span {  float: left;  font-size: 70%;  padding-left: 5px;  width: 130px}
+
+body > nav profile .icon-user {font-size: 790%;line-height: 1; float: left;margin-top: 10px;margin-left: 1px;}
+
+body > nav profile:hover .fileupload {display:block;}
+body > nav profile .fileupload {  position: absolute;  cursor: pointer; bottom:10px;width:100%;display:none;}
+body > nav profile .fileupload:hover button {  background-color: #cccccc;  box-shadow: inset 0 0 0 rgba(0, 0, 0, .15);}
+body > nav profile .fileupload input[type=file] {  position: absolute;  top: 0;  right: 0;  margin: 0;  padding: 0;  font-size: 100%;  cursor: pointer;  opacity: 0;  filter: alpha(opacity=0);}
+body > nav profile .fileupload button{font-size:80%;margin:0 auto;display:block;}
+body > nav profile{width:100%;padding:20px 0;position: relative; float: left;  background-color: #f0f0f0;cursor:pointer;}
+body > nav profile label{text-align: center;width: 100%;display: block;font-size: 80%;float:left;margin-top:10px;}
+
+body > nav uploadedFiles {  margin-top: 5px;  float: left;  width: 100%;}
+body > nav uploadedFiles > div {box-shadow: 1px 1px 8px #999;border: 5px solid #fff;display:none;background-color:#fff;border-radius:150px;background-image:url('/sistema8/img/loading.gif');background-repeat:no-repeat;background-position:center center;width:128px;height:128px;  margin: 0 auto; overflow: hidden;}
+body > nav uploadedFiles > div > figure {width:128px;height:128px;background-position: center center; background-repeat:no-repeat;background-size:cover;}
+body > nav uploadedFiles > div > options { display: none;  position: absolute;width:128px;height:128px;}
+body > nav uploadedFiles > div:hover > options { display: block; }
+
+body > nav uploadedFiles > div:last-child{display:block;}
+body > nav uploadedFiles > div > options > span {margin:15px; border-radius:25px;color: #fff; padding:10px; font-size: 11pt; cursor: pointer;   display: block;  position:absolute; }
+body > nav uploadedFiles > div > options > span:hover{background-color:rgba(198, 27, 31,0.7);}
+body > nav uploadedFiles > div > options .icon-bin{ right:0;top:0; }
+body > nav uploadedFiles > div > options .icon-undo{ left:0;bottom:0; }
+body > nav uploadedFiles > div > options .icon-redo{ right:0;bottom:0; }
+body > nav uploadedFiles > div > options .icon-search{ left:0;top:0; }
+
+
+/* ######## 210-navSuite.css ######## */
+
+
+navsuite{
+  display:none;
+      position: absolute;
+    right: 10px;
+    top: 80px;
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* ######## 300-menu.css ######## */
+
+
+
+menu { width:100%;float:right;}
+
+form menu button {margin-right: 10px;margin-top: 10px;background-color:transparent;color: #fff;}
+menu button { margin-bottom: 10px ;color: #666666;  cursor: pointer;     border: 0;  background-color: #dddddd;  padding: 10px 15px;  text-transform: capitalize;  }
+
+menu > button:nth-last-child(1) {  }
+
+form menu{background-color:#f6f6f6;margin-top: 10px;}
+
+button[action="new"]{width:60px;height:60px;font-size:26pt;background-color:#177EE5;color:#fff;float:right;text-shadow: 1px 1px #777;box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .135);}
+form button[action="save"]{float:right;}
+form button[action="delete"]{float:right;}
+form button[action="edit"]{}
+form button[action="close"]{}
+
+form button[action="seeattach"]{float:left;}
+form button[action="attach"]{float:left;}
+
+
+order {margin-top:50px;  float: left;  padding-top:20px;  display:none;}
+
+order > button {cursor:pointer;  margin-left:10px;  background-color:transparent;}
+
+order > button[selected="1"] {font-weight:bold;}
+
+
+/* ######## 700-arquivos.css ######## */
+
+
+body[area="arquivos"] view item icon{display:none;}
+
+
+/* ######## 700-print.css ######## */
+
+
+printheader {display:none;}
+
+@media print {
+  
+  body{background-color:#fff;}
+  
+  filter,icon,nav,menu,header,window,grade,item{display:none !important;}
+  item[open="1"]{border-left:0 !important;display:block !important;padding-top:70px;}
+  
+  
+  item[open="1"] user{top:0px;left:0px;position:absolute;}
+  item[open="1"] pacientes{top:20px;left:0px;position:absolute;}
+  item[open="1"] medicos{top:40px;left:0px;position:absolute;}
+  
+  item p {white-space:pre;}
+  figure{-webkit-print-color-adjust: exact; }
+  detalhes {overflow: auto !important;white-space: normal !important;}
+  detalhes > figure {display:block;float:left;width:256px !important;height:256px !important;margin: 0 10px 10px 0 !important;}
+  
+  printheader {display:block;width:100%;background-color:#444;float:left;}
+  printheader logo{padding:10px;float:left;color:#fff;}
+  
+}
+
+
+/* ######## 750-rules.css ######## */
+
+
+body div[admin="1"]{display:none;}
+
+body[areas="1"] div[admin="1"]{display:block;}
+
+body[modules="users"] button[action="delete"]{display:none;}
+body[areas="1"][modules="users"] button[action="delete"]{display:block;}
+
+
+/* ######## 800-iframe.css ######## */
+
+
+body iframe {margin:0;padding:0;width:100%;height:100%;border:0;}
+
+
+/* ######## 999-responsive.css ######## */
+
+
+/*
+body[mobile="1"][logged="1"] form {width:100%;min-height:100%;position:absolute;z-index:550;}
+*/
+
+/* Mobile */
+body[mobile="1"] {width:480px;}
+body[mobile="1"] > section{float:left !important;height:200px !important;}
+body[mobile="1"] > header{width:480px;}
+body[mobile="1"] window {width:100%;height:100%;}
+body[mobile="1"] window form{width:100%;height:100%;overflow:auto;}
+window form menu{position:absolute;right:0;bottom:0;z-index:500;}
+
+body[mobile="1"] view {width:460px;margin-left:10px;}
+body[mobile="1"] window header label {}
+body[mobile="1"] window header icon {}
+body[mobile="1"] window form uploadedFiles > div {position:relative;width:280px;height:280px;}
+
+body[mobile="1"] window form uploadedFiles > div > options > span {padding:20px;}
+
+body[mobile="1"] form div[gridmobile="3"] {width:100%;} 
+body[mobile="1"] form div[gridmobile="3"] .default{width:420px;} 
+
+body[mobile="1"] form div[gridmobile="2"] {width:50%;}
+body[mobile="1"] form div[gridmobile="2"] .default{width:420px;}
+
+body[mobile="1"] form div[gridmobile="1"] {} 
+body[mobile="1"] form div[gridmobile="1"] .default{width:420px;} 
+body[mobile="1"] form div[gridmobile="1"] uploadedfiles{width:460px;} 
+
+body[mobile="1"] form textarea {height:100px;} 
+body[mobile="1"] button[action]{font-size:120%;}
+body[mobile="1"] filter > input {width:400px;}
+
+body[mobile="1"] view detalhes figure{width:256px;height:256px;display:inline-block;}
+
+body[mobile="1"] > header > icon {
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  
+}
+
+
+
+/* Desktop */
+
+body[mobile="0"] window {width:820px;box-shadow:0 0px 20px 0px #000;}
+body[mobile="0"] window form {padding:0 0 10px 0;min-height:300px;}
+
+body[mobile="0"] form div[grid="3"] {} 
+body[mobile="0"] form div[grid="3"] .default{width:220px;} 
+
+body[mobile="0"] form div[grid="2"] {}
+body[mobile="0"] form div[grid="2"] .default{width:355px;}
+
+body[mobile="0"] form div[grid="1"] {} 
+body[mobile="0"] form div[grid="1"] .default{width:760px;} 
+body[mobile="0"] form div[grid="1"] uploadedfiles{width:800px;height:150px;} 
+
+body[mobile="0"] filter > input {width:860px;}
+
+body[mobile="0"] form div[grid="1"] multipleview {width:800px;float:left;}
+
+body[mobile="0"] form div[grid="1"] multiplehidden {width: 780px;float:left;}
+
+body[mobile="0"] form div[grid="1"] tagsearchbox {width:400px;}
+body[mobile="0"] form div[grid="1"] tagview {width:800px;}
+body[mobile="0"] form div[grid="1"] taghidden {width:100%;height:131px;}
+
+body[mobile="0"] form div[grid="2"] tagview {width:395px;}
+body[mobile="0"] form div[grid="2"] taghidden {width:100%;height:131px;}
+body[mobile="0"] form div[grid="1"] tagsearchbox {width:400px;}
+
+body[mobile="0"] view detalhes figure{width:128px;height:128px;display:inline-block;}
+
+body[mobile="0"] > header > icon:hover {}
+
+
+
+
+/* ######## form.css ######## */
+
+
+body[logged="1"] window{position:fixed;z-index:550;top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;overflow:auto;}
+body[logged="1"] window form {float:left;background-color:#fff;width:100%;box-shadow: inset -1px 5px 8px -7px #000}
+
+
+window form > div > label {padding:10px 0 0 10px;color:#444;}
+
+form input.error,
+form select.error {background-color: #F2CBCB}
+form p.error {color: red}
+form p.sucess {color: #55C73D}
+
+form div.status {  text-align: center;  font-size: 90%}
+
+form > div {  float: left;position:relative;}
+form > div:first-child{margin-top:10px;}
+form > div > label {  display: block;-webkit-tap-highlight-color: transparent;}
+form > div.error > label > counter {  color: red}
+
+form suggestsplaces option {  cursor: pointer;  padding: 2%;  background-color: #eee;  width: 98%;  overflow: auto}
+
+form suggestsplaces option:hover {  background-color: #ccc}
+
+
+form > div.checkbox {  width: auto}
+
+/* Form Grid */
+
+form div > grid {width:100%;height:100%;position:fixed;background-color:rgba(0,0,0,0.5);}
+
+form checkbox {  float: left}
+form checkbox button {  border: 0; background-color: transparent;  padding: 5px}
+form checkbox button[selected="0"]:before {  content: "\ea53"}
+form checkbox button[selected="1"]:before {  content: "\ea52"}
+
+form .default {  color: #444444;padding:20px;margin:5px 0 0 10px;background-color:#f6f6f6;}
+
+form textarea {  height: 200px;}
+
+
+/* ######## formData.css ######## */
+
+
+/* Select */
+
+window form [type="date"] {height:19px;}
+
+
+
+
+/* ######## formFileupload.css ######## */
+
+
+/* Fileupload */
+
+form div[type="fileupload"] label {}
+form div[type="fileupload"] button{float:left;}
+
+
+form .fileupload {  position: relative;  cursor: pointer;   float: left;margin-left:10px;}
+
+form .fileupload input[type=file] {  position: absolute;  top: 0;  right: 0;  margin: 0;  padding: 0;  font-size: 100%;  cursor: pointer;  opacity: 0;  width: 100%;height: 100%;}
+
+form uploadedFiles {  float: left;overflow: auto;white-space: nowrap;margin:10px 10px 0 10px;}
+form uploadedFiles > .pdf h3{color: rgb(255, 255, 255);top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position: absolute;}
+form uploadedFiles > .pdf {background-color:#000;}
+
+form uploadedFiles > div {background-image:url('/admin/img/loading.gif');background-repeat:no-repeat;background-position:center center;position:relative;width:128px;height:128px;   margin-right: 10px; overflow: hidden;display: inline-block;}
+form uploadedFiles > div > figure {cursor:pointer;width:100%;height:100%;background-position: center center; background-repeat:no-repeat;background-size:cover; }
+form uploadedFiles > div > options { display: none;  position: absolute;bottom:0;right:0;width:100%;background-color:#444;}
+form uploadedFiles > div:hover > options { display: block; }
+
+form uploadedFiles > div > label {top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position:absolute;}
+form uploadedFiles > div > options > span {color: #fff; padding:7px; font-size: 11pt; cursor: pointer;   display: block; float:left; }
+
+
+
+
+/* ######## formHeader.css ######## */
+
+
+window > header {width: 100%;float:left;}
+
+window > header > label {padding:18px 0 0 10px;float:left;color:#fff;}
+
+window > header > button {visibility:hidden;color: #fff;  cursor: pointer;   box-shadow: none;  border: 0;  background-color: transparent;  padding:10px;  float:right;}
+
+window > header > icon {cursor:pointer;color:#fff;float:right;float: right;padding: 15px;height: 9px;font-size: 120%;line-height: 0.3;}
+
+window > header > icon[action]{float:right; font-size: 120%;line-height: 0.8;height: 15px;margin-bottom: 5px;margin-top: 5px;}
+
+window > header > icon[action="back"]{float:left;margin-left:10px;margin-right:0;}
+window > header > icon[action="save"]{margin-right:10px;}
+
+window > header > icon[action="attach"]{position:relative;overflow:hidden;}
+
+window > header > icon[action="attach"] input{position: absolute;cursor:pointer;left: 0;top: 0;height: 100%;width: 100%;opacity: 0;}
+
+window > header > icon[action="close"]{float:right; font-size: 60%;line-height: 1.2;}
+
+window > header > icon:hover {color:#444;}
+
+
+
+/* ######## formHide.css ######## */
+
+
+/* Form Hide */
+
+form > div[type="hide"] {}
+
+form > div[type="hide"] > label {  cursor: pointer;float:left;margin:15px 0;line-height:1.5;}
+
+form > div[type="hide"] > input {  display: block;float:right;width:50px;padding:0;box-shadow:none;background-color:transparent;border-bottom:1px solid #000;margin:17px 15px 15px 0;text-align:right;text-ident:2;}
+
+form > div[type="hide"][hide='0'] > input {  visibility:visible;}
+
+form > div[type="hide"][hide='1'] > input {  visibility:hidden;}
+
+form > div[type="hide"] icon {  font-size: 125%;  color: #000;margin:15px 5px 15px 15px;float:left;cursor: pointer;}
+
+form > div[type="hide"][hide='1'] icon:before {  content: "\ea53"}
+
+form > div[type="hide"][hide='0'] icon:before {  content: "\ea52"}
+
+
+/* ######## formMultiple.css ######## */
+
+
+/* Form Multiple */
+
+form div > multiple > button[selected="0"] {  background-color: #824F4F;}
+form div > multiple > button {  width: 100%;  text-align: left;  display: block;  border: none;  padding: 5px;  margin-right: 5px;  color: #fff;  margin: 0 5px 5px 0;}
+form div > multiple > button {  cursor: pointer;}
+
+form div > multiple > button[found="1"] {  display:block;}
+form div > multiple > button[found="0"] {  display:none;}
+
+form div > multiple > button[selected="1"] {  background-color: #cd4f4f;  }
+form div > multiple {  margin-top: 10px;  display: block;margin-left:10px;}
+form div > multiple {  overflow: auto;  position: relative;height: 210px;}
+
+form div.multiple > label{}
+form div.multiple > input {  width: 250px;text-indent:0;}
+
+/* Form Multiple Hidden*/
+
+form div[mouse="1"] > multiplehidden {display:block;}
+
+form div > multiplehidden {width:400px;border-radius:5px;padding:10px;display: none;left:10px;top:40px;z-index: 10;position: absolute;background-color:#444;}
+
+form div > multiplehidden > input{padding:10px;padding: 10px 0;text-indent: 10px;width: 100%;}
+
+form div > multiplehidden > icon{color:#fff;}
+
+form div[search="1"] > multiplehidden {display:block;}
+
+form div > multiplehidden .icon-cross{font-size: 80%;float: right;padding: 5px;background-color: #000;border-radius: 5px;margin-bottom: 10px;cursor: pointer;}
+
+form div > multiplehidden > opt[selected="0"] {}
+form div > multiplehidden > opt[selected="1"] {font-weight:bold;}
+
+form div > multiplehidden > opt {cursor:pointer;font-size:80%;display:none;width: 100%;padding: 5px 0; color: #fff;text-indent:5px;}
+form div > multiplehidden > opt:hover{background-color:#cd4f4f;color:#fff;}
+form div > multiplehidden > opt[found="1"] {display:block;}
+form div > multiplehidden > opt[found="0"] {display:none;}
+
+
+form div.multiplehidden > label {display:none;}
+
+
+form div > multipleview > div {margin-left:10px;margin-top:10px;float:left;}
+form div > multipleview > div > figure {background-color: #eee;border-radius: 5px 0 0 5px;width: 29px;height: 29px;float: left;display:none;}
+form div > multipleview > div > label {padding:5px 15px;float:left;background-color:#cd4f4f;color:#fff;font-size:80%;border-radius:5px 0px 0px 5px;}
+form div > multipleview > div > icon {cursor:pointer;background-color: #824F4F;padding: 7px;float: left;color: #fff;font-size: 10px;width: 11px;height: 11px;border-radius:0 5px 5px 0;}
+
+
+form div > multipleview > add{cursor:pointer;background-color: #444;color: #fff;cursor: pointer;float: left;border-radius: 5px;margin-left: 10px;    margin-top: 10px;}
+form div > multipleview > add > icon {float:left;font-size: 10px;padding: 7px;}
+
+form div > multipleview > add > label {float:left;padding:5px 10px 5px 0;font-size:80%;cursor:pointer;}
+
+
+
+/* ######## formSelect.css ######## */
+
+
+/* Select */
+
+window form > div > icon.icon-arrow-down {cursor:pointer;background-color:#f6f6f6;position: absolute;right: 1px;bottom: 2px;line-height: 3;width:50px;height:50px;text-align:center;border-left:1px solid #fff;}
+window form > div > icon.icon-cog {background-color:#f6f6f6;cursor:pointer;position: absolute;right: 2px;top: 15px;margin:0;line-height: 2.9;border-left:1px solid #fff;z-index:10;height:50px;width:50px;text-align:center;}
+
+window form select {width:90%;border: 0;opacity:0;position:absolute;top:0;height: 100%;margin-left:10px;}
+window form select option{border:0;padding: 5px;}
+
+window form > select > option:first {color: #999;}
+window form > div > placeholder{display:block;}
+/* Select1 */
+window form div[type="select"] label {}
+window form select1{float: left;overflow-x: hidden;overflow-y: auto;}
+window form select1 > button {  margin:0 5px 0 0;}
+window form select1 > button[selected="0"] {background-color: #fff;}
+window form select1 > button[selected="1"] {background-color: #444;color:#fff;}
+
+/* Select2 */
+window form div[type="select"] label {}
+window form div[type="select"]{position:relative;}
+
+window form select2 {margin-top:5px;z-index:999;border: 1px solid #ccc;display:none;height: 196px;float: left;overflow-x: hidden;overflow-y: auto;width:293px;position:absolute;background-color:#eee;}
+window form select2 > button { text-align:left;width:100%; color:#444;margin-right:5px;cursor: pointer;  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .135);  border: 0;  padding: 5px 10px;  text-transform: capitalize; }
+window form select2 > button[selected="0"] {background-color: #fff;}
+window form select2 > button[selected="1"] {background-color: #444;color:#fff;}
+window form select2 > button:hover {background-color:#444;color:#fff;}
+
+window form div[type="select2"]{padding:25px 10px;}
+window form div[type="select2"] label{margin:1px;}
+window form div[type="select2"]:hover select2{display:block;}
+window form select2 > text {float:left;text-align:left;width:100%; color:#444;margin-right:5px;cursor: pointer;  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .135);  border: 0;  padding: 5px 10px;  text-transform: capitalize; }
+
+/* Select 3 */
+window form select3 {border:1px solid #ccc;display:none;margin:5px 0 0 10px;z-index:999;float: left;overflow-x: hidden;overflow-y: auto;position:absolute;background-color:#fff;max-height:198px;min-width: 80%;padding:5px;}
+window form select3 > opt {float:left;width:100%;cursor:pointer;display:none;height:24px;font-size:90%;margin-bottom:5px;}
+window form select3 > opt:hover{background-color:#eee;}
+window form select3 > opt:nth-last-child(1){margin-bottom:0;}
+window form select3 > opt[selected="true"] label{font-weight:bold;}
+window form select3 > opt > label {float:left;padding: 5px 5px 0 5px;cursor:pointer;font-size:90%;}
+window form select3 > opt > figure {background-color:#444;width:24px;height:24px;float:left;background-position:center center;background-size:cover;background-repeat:no-repeat;}
+window form div > input[name="findernew"] {text-indent:50px;}
+window form div labelfigure {background-size: cover;background-position: center;background-color: #444;width: 50px;height: 50px;position: absolute;left: 15px;bottom: 5px;}
+
+
+/* ######## formSelectAjax.css ######## */
+
+
+
+/* Select 3 */
+window form selectajax {border:1px solid #ccc;display:none;margin:5px 0 0 10px;z-index:999;float: left;overflow-x: hidden;overflow-y: auto;position:absolute;left:0;top:90px;background-color:#fff;max-height:198px;min-width: 80%;padding:5px;}
+window form selectajax > opt {float:left;width:100%;cursor:pointer;height:24px;font-size:90%;margin-bottom:5px;}
+window form selectajax > opt:hover{background-color:#eee;}
+window form selectajax > opt:nth-last-child(1){margin-bottom:0;}
+window form selectajax > opt[selected="true"] label{font-weight:bold;}
+window form selectajax > opt > label {float:left;padding: 5px 5px 0 5px;cursor:pointer;font-size:90%;}
+window form selectajax > opt > figure {background-color:#444;width:24px;height:24px;float:left;background-position:center center;background-size:cover;background-repeat:no-repeat;}
+
+
+
+/* ######## formTag.css ######## */
+
+
+
+/* Form Tag */
+/*
+div.formtag[mouse="1"] > taghidden {display:block;}
+
+div.formtag[search="1"] > taghidden {display:block;}
+
+div.formtag > label {display:none;}
+
+taghidden {width:400px;border-radius:5px;padding:10px;display: none;left:10px;top:40px;z-index: 10;position: absolute;background-color:#444;}
+
+taghidden > input{padding:10px;padding: 10px 0;text-indent: 10px;width: 100%;}
+
+taghidden > icon{color:#fff;}
+
+taghidden .icon-cross{font-size: 80%;float: right;padding: 5px;background-color: #000;border-radius: 5px;margin-bottom: 10px;cursor: pointer;}
+
+taghidden > opt[selected="0"] {}
+taghidden > opt[selected="1"] {font-weight:bold;}
+
+taghidden > opt {cursor:pointer;font-size:80%;display:none;width: 100%;padding: 5px 0; color: #fff;text-indent:5px;}
+taghidden > opt:hover{background-color:#cd4f4f;color:#fff;}
+taghidden > opt[found="1"] {display:block;}
+taghidden > opt[found="0"] {display:none;}
+
+
+
+tagview > div {margin-left:10px;margin-top:10px;float:left;}
+tagview > div > figure {background-color: #eee;border-radius: 5px 0 0 5px;width: 29px;height: 29px;float: left;display:none;}
+tagview > div > label {padding:5px 15px;float:left;background-color:#cd4f4f;color:#fff;font-size:80%;border-radius:5px 0px 0px 5px;}
+tagview > div > icon {cursor:pointer;background-color: #824F4F;padding: 7px;float: left;color: #fff;font-size: 10px;width: 11px;height: 11px;border-radius:0 5px 5px 0;}
+
+
+tagview > add{cursor:pointer;background-color: #444;color: #fff;cursor: pointer;float: left;border-radius: 5px;margin-left: 10px;    margin-top: 10px;}
+tagview > add > icon {float:left;font-size: 10px;padding: 7px;}
+
+tagview > add > label {float:left;padding:5px 10px 5px 0;font-size:80%;cursor:pointer;}
+*/
+
+div.formtag[mouse="1"] > tagsearchbox {display:block;}
+
+div.formtag[search="1"] > tagsearchbox {display:block;}
+
+div.formtag[mouse="1"] > add {display:none;}
+div.formtag[search="1"] > add {display:none;}
+
+div.formtag add {background-color: #444;color: #fff;cursor: pointer;float: left;border-radius: 3px;margin: 10px 0 0 10px;position:absolute;right:0;top:0;}
+div.formtag add > icon {float:left;font-size: 10px;padding:6px 0 0 5px;}
+div.formtag add > label {float:left;padding: 3px 5px;font-size:80%;cursor:pointer;}
+
+tagsearchbox {padding:10px;display: none;right:0;top:34px;z-index: 10;position: absolute;background-color:#fff;box-shadow: 0px 0px 4px 0px #444;}
+
+tagsearchbox > input{padding: 10px 0;text-indent: 10px;background-color:#eee;}
+
+tagsearchbox .icon-cross{font-size: 80%;float: right;padding: 5px;margin-bottom: 10px;cursor: pointer;color:#444;}
+
+taghidden{float: left;overflow: auto;margin-top:10px;}
+taghidden > opt[selected="0"] {}
+taghidden > opt[selected="1"] {font-weight:bold;}
+
+taghidden > opt {cursor:pointer;font-size:80%;display:none;width: 100%;padding: 5px 0; color: #444;}
+taghidden > opt:hover{background-color:#cd4f4f;color:#fff;}
+taghidden > opt[found="1"] {display:block;}
+taghidden > opt[found="0"] {display:none;}
+
+tagview {overflow:auto;height:200px;float:left; margin: 5px 0 0 10px;padding-right: 1px;}
+
+tagview > div {float:left;width:100%;background-color: #eee;margin-bottom:1px;font-size:90%;}
+tagview > div > figure {background-color: #eee;width: 29px;height: 29px;float: left;display:none;}
+tagview > div > label {padding:5px;float:left;color:#444;}
+tagview > div > label:nth-child(2){}
+
+tagview > div > valor{text-align:right;padding:2px 4px;float:right;color:#444;width:60px;-webkit-user-modify: read-write;-moz-user-modify:read-write;user-modify: read-write;background-color:#fff;margin:3px;box-shadow: inset 1px 1px 5px -3px #444;}
+
+tagview > div > icon {cursor:pointer;color: red;padding: 8px;float: right;font-size: 10px;}
+
+tagview > div:hover > icon{display:block;}
+
+
+tagview > div > input {width:50px;float:left;background-color:transparent;text-align:right;margin-top:5px;}
+
+
+
+/* ######## formTrueorfalse.css ######## */
+
+
+/* Form True or false  */
+
+
+form > div[type="trueorfalse"] > label {  cursor: pointer;float:left;margin:15px 0;line-height:1.5;}
+
+form > div[type="trueorfalse"][hide='0'] > input {  display: none}
+
+form > div[type="trueorfalse"][hide='1'] > input {  display: none}
+
+form > div[type="trueorfalse"] icon {  font-size: 125%;  color: #000;margin:15px 5px 15px 15px;float:left;cursor: pointer;}
+
+form > div[type="trueorfalse"][hide='1'] icon:before {  content: "\ea53"}
+
+form > div[type="trueorfalse"][hide='0'] icon:before {  content: "\ea52"}
+
+
+/* ######## formYoutube.css ######## */
+
+
+/* Youtube */
+
+form > div[type="youtube"] figure{cursor:pointer;background-color:#000;position:absolute;right: 10px;bottom: 10px;width: 70px;height: 40px;background-position:center center;background-size:100% auto;}
+form > div[type="youtube"][error="1"] input{background-color: #F2CBCB;}
+form > div[type="youtube"][error="1"] figure{display:none;}
+
+
+/* ######## header.css ######## */
+
+
+body > header {
+  top:-70px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  box-shadow: 0 1px 5px #888;
+  height: 60px;
+  position: fixed;
+
+  z-index: 20;
+  will-change: top;-webkit-transition: top 1s;-moz-transition: top 1s;will-change: top;
+}
+
+body[logged="1"] > header{top:0;will-change: top;-webkit-transition: top 1s;-moz-transition: top 1s;will-change: top;}
+
+body > header > profile {
+  float: right;
+  margin: 10px 0 10px 10px;
+  padding-right: 10px;
+  border-right: 1px solid #0F89CA
+}
+
+body > header > icon {font-size: 16pt;padding: 19px;line-height: 1;color: #fff; }
+
+body > header > .icon-menu {float: left;background-color: transparent;cursor: pointer;-webkit-tap-highlight-color: transparent;}
+
+body > header > a > logo {float: left;padding: 12px}
+
+body > header > a > logo > span {
+  font-family: Droid Sans;
+  line-height: 2.4;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  text-transform: uppercase
+}
+
+body > header > mobileversion {
+ font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased; 
+  float: right;
+  border: none;
+  font-size: 16pt;
+  padding: 19px;
+  line-height: 1;
+  color: #fff;
+  transition: transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  background-color: transparent;
+  cursor: pointer
+}
+
+
+
+
+/* ######## header_filter.css ######## */
+
+
+
+body[filter="1"] boxfilter{display:block;}
+boxfilter{display:none;background-color: #fff; position: fixed; right: 10px;top: 58px;z-index: 10;box-shadow: 0px 0px 10px -7px #000;}
+
+boxfilter > input {height: 60px;text-indent:55px;}
+
+boxfilter > input.hide {display: none}
+
+boxfilter > icon {
+  position:absolute;
+  left:20px;
+  top:0;
+  border: none;
+  font-size: 16pt;
+  line-height: 1;
+  color: #999;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+boxfilter > icon:before {
+  content: "\e986"
+}
+
+
+
+/* Filter SelectSearch*/
+boxfilter selectsearch {float:left;position:relative;}
+boxfilter selectsearch div {display:block;margin:5px 0 0 10px;z-index:999;float: left;overflow-x: hidden;overflow-y: auto;position:absolute;background-color:#fff;max-height:200px;}
+boxfilter selectsearch opt {float:left;width:100%;cursor:pointer;display:none;height:48px;}
+boxfilter selectsearch opt:hover{background-color:#eee;}
+
+boxfilter selectsearch opt[selected="true"] label{font-weight:bold;}
+boxfilter selectsearch opt > label {float:left;padding:16px 0 0 10px;cursor:pointer;    width: 250px;overflow-y: auto; overflow-x: hidden;white-space: nowrap;}
+boxfilter selectsearch opt > figure {background-color:#444;width:48px;height:48px;float:left;background-position:center center;background-size:cover;background-repeat:no-repeat;}
+boxfilter selectsearch input[name="finder"] {text-indent:50px;width:350px;padding:20px;}
+boxfilter selectsearch labelfigure {background-size: cover;background-position: center;background-color: #444;width: 50px;height: 50px;position: absolute;left: 5px;top: 5px;}
+boxfilter selectsearch icon{background-color: #fff;position: absolute;right: 2px;top:2px;cursor:pointer;padding:20px;}
+
+
+/* ######## header_notifications.css ######## */
+
+
+
+
+
+boxnotification {display:none;background-color: #fff; width: 400px; position: fixed; right: 10px;top: 58px;z-index: 10;box-shadow: 0px 0px 10px -7px #000;}
+body[notification="1"] boxnotification {display:block;}
+
+boxnotification notifications {float:left;}
+boxnotification notifications div:nth-child(1) {border-top-width:1px ;}
+boxnotification notifications div {position: relative;float:left;padding: 10px; border-width: 0 1px 1px 1px;border-color: #ccc;border-style: solid;font-size:80%;}
+
+boxnotification notifications div[r="1"] {background-color: #fff;}
+boxnotification notifications div[r="0"] {background-color: #ddd;}
+
+boxnotification notifications div figure {margin-right:10px;width:64px; height:64px;float:left;background-color:#ccc;background-size:cover;background-position: center center;}
+boxnotification notifications div user {float:left;margin-right:5px;}
+boxnotification notifications div action {float:left;margin-right:5px;}
+boxnotification notifications div modules {float:left;margin-right:5px;}
+boxnotification notifications div date {float:left;position:absolute;bottom:10px;right:10px;}
+
+
+/* ######## header_options.css ######## */
+
+
+
+body > header > options > icon {
+  
+  font-size: 16pt;
+  padding: 10px;
+  line-height: 1;
+  color: #fff;
+  margin:10px 10px 0 0;
+  border-radius:5px;
+  cursor:pointer;
+  float:right;
+  position:relative;
+  
+}
+
+body > header > options > .icon-bell counternotification {
+  
+  padding:2px 3px;
+  border-radius:5px;
+  position:absolute;
+  top: 5px;right: 5px;
+  background-color:red;
+  color:#fff;
+  font-size:10pt;
+  font-family: Droid Sans;
+  display:none;
+  
+}
+
+
+body[modules=""] > header .icon-search{display:none;}
+
+
+/* ######## loading.css ######## */
+
+
+loading{background-color:#fff;padding:10px;display:none;position:fixed;z-index:560;top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;box-shadow: 0px 0px 5px 1px #444;}
+
+body[loading="1"] loading{display:block;}
+
+loading icon {position: absolute;-moz-animation: spin 1.0s infinite linear;-webkit-animation: spin 1.0s infinite linear;line-height: 1.3}
+
+loading label{margin-left:25px;}
+
+
+/* ######## login.css ######## */
+
+
+body[logged="1"] login{transform: translateX(-50%) translateY(-50%) scale(0.000001);transition: all 1s ease-in-out;}
+body[logged="0"] login{transform: translateX(-50%) scale(1);transition: all 1s ease-in-out;}
+
+
+
+body[openlogin="1"] login {display:block !important;}
+
+login {display:none;width:400px;position:absolute;transform: translateX(-50%);left: 50%;z-index:1;}
+
+login h1{text-align:center;font-size:500%;}
+login p {text-align:center;padding:20px;}
+
+
+
+login form input {font-size:120%;border-radius:3px;text-indent:15px;border: 0;float: left;height: 40px;padding: 0;outline: none;margin-bottom: 10px;width: 100%;}
+
+login #name           {display:none}
+login #email          {display:none}
+login #password       {display:none}
+login #cpf            {display:none}
+login #crm            {display:none}
+login #userstipos     {display:none}
+
+login #identidade     {display:none}
+login #telefone       {display:none}
+login #cep            {display:none}
+login #endereco       {display:none}
+
+login #btRecovery     {display:none;float:right;text-decoration:underline;padding:5px;margin-top:20px;}
+login #btInsert       {display:none;float:right;text-decoration:underline;padding:5px;margin-top:20px;}
+login #btInsertPaciente {display:none;padding:5px;width:49%;float:left;background-color:#fff;margin-bottom:10px;}
+login #btInsertMedico {display:none;padding:5px;width:49%;float:right;background-color:#fff;margin-bottom:10px;}
+login #btLogin        {display:none;float:left;text-decoration:underline;padding:5px;margin-top:20px;}
+
+
+
+login p               {display: none;}
+
+
+
+login form icon {width: 18px;height: 40px;float: left;line-height: 2.6;text-align: center;color: #fff;background-color: transparent;margin: 0;margin-bottom: 10px}
+
+
+
+
+
+login button:focus {box-shadow: none;  outline: none}
+
+login form button.loading {background-color: transparent}
+
+login form button.error {background-color: transparent}
+
+login form button.sucess {background-color: transparent}
+
+login button {border-radius:3px;height:40px;cursor: pointer;float: right;border: 0;box-shadow: none;background-color: transparent;outline: none;text-decoration:none;font-size:120%;}
+
+login form button#status{background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
+
+login form {float:left;padding: 30px;width:340px;}
+
+login options{position:absolute;left:0;bottom:0;margin:30px 30px 30px 30px;}
+
+login options button{padding:5px;font-size:80%;margin-right:5px;float:left;background-color:#fff;text-transform: none;}
+
+login btclose {position: absolute;right: 0;top: 0;padding: 5px;line-height: 0.6;border-radius: 3px;margin: 10px;background-color: #444;float: left;color: #fff;cursor:pointer;}
+
+login form input:-webkit-autofill,
+login form input:-webkit-autofill:hover, 
+login form input:-webkit-autofill:focus,
+login form textarea:-webkit-autofill,
+login form textarea:-webkit-autofill:hover,
+login form textarea:-webkit-autofill:focus,
+login form select:-webkit-autofill,
+login form select:-webkit-autofill:hover,
+login form select:-webkit-autofill:focus {
+
+  -webkit-background-color: #efefef !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+
+}
+
+
+/* ######## loginA.css ######## */
+
+
+login.login .plogin     {display:block;}
+login.login #email      {display:block;}
+login.login #password   {display:block;}
+
+login.login #btInsert   {display:block;}
+login.login #btRecovery {display:block;}
+
+
+/* ######## loginAInsert.css ######## */
+
+
+login.insert .pinsert   {display: block;}
+login.insert #name       {display:block;}
+login.insert #email      {display:block;}
+login.insert #password   {display:block;}
+login.insert #cpf        {display:block;}
+
+login.insert #identidade {display:block;}
+login.insert #telefone   {display:block;}
+login.insert #cep        {display:block;}
+login.insert #endereco   {display:block;}
+
+login.insert #btLogin           {display: block;}
+login.insert #btInsertPaciente  {display:block;background-color:#444;color:#fff;}
+login.insert #btInsertMedico    {display:block;}
+login.insert #btRecovery        {display:block;}
+
+
+/* ######## loginAInsertMedico.css ######## */
+
+
+login.insertmedico .pinsert    {display:block;}
+login.insertmedico #name       {display:block;}
+login.insertmedico #email      {display:block;}
+login.insertmedico #password   {display:block;}
+login.insertmedico #cpf        {display:block;}
+login.insertmedico #crm        {display:block;}
+
+login.insertmedico #identidade {display:block;}
+login.insertmedico #telefone   {display:block;}
+login.insertmedico #cep        {display:block;}
+login.insertmedico #endereco   {display:block;}
+
+login.insertmedico #btInsertPaciente {display: block;}
+login.insertmedico #btInsertMedico {display: block;background-color:#444;color:#fff;}
+
+login.insertmedico #btLogin   {display:block;}
+login.insertmedico #btRecovery {display:block;}
+
+
+/* ######## loginAInsertPaciente.css ######## */
+
+
+login.insertpaciente .pinsert    {display: block;}
+login.insertpaciente #name       {display:block;}
+login.insertpaciente #email      {display:block;}
+login.insertpaciente #password   {display:block;}
+login.insertpaciente #cpf        {display:block;}
+
+login.insertpaciente #identidade {display:block;}
+login.insertpaciente #telefone   {display:block;}
+login.insertpaciente #cep        {display:block;}
+login.insertpaciente #endereco   {display:block;}
+
+
+login.insertpaciente #btInsertPaciente {display: block;background-color:#444;color:#fff;}
+login.insertpaciente #btInsertMedico {display: block;}
+
+login.insertpaciente #btLogin   {display:block;}
+login.insertpaciente #btRecovery {display:block;}
+
+
+/* ######## loginRecovery.css ######## */
+
+
+login.recovery .precovery  {display:block;}
+login.recovery #email   {display:block;}
+
+login.recovery #btLogin   {display:block;}
+login.recovery #btInsert   {display:block;}
+
+
+/* ######## modules-category.css ######## */
+
+
+/*
+body[modules='category'] form select3 figure{display:none;}
+*/
+
+
+/* ######## modules-pacientes.css ######## */
+
+
+body[modules='pacientes'] view item user{display:none;}
+body[modules='pacientes'] view item detalhes{margin-left:0;}
+body[modules='pacientes'] view item data{margin:2%;}
+
+body[modules="pacientes"] view item {height:64px;padding-bottom:0;}
+body[modules="pacientes"] view item detalhes{float:left;width:auto;padding:0;position:absolute;left:0;}
+body[modules="pacientes"] view item detalhes figure{width:64px;height:64px;display:none;}
+body[modules="pacientes"] view item p{min-width:auto;line-height:1;margin-left:64px;}
+
+
+body[modules="pacientes"] view item detalhes figure:nth-child(-n+1){display:block;}
+
+
+/* ######## pagesResponsive.css ######## */
+
+
+body[mobile="1"] pages section content box2 {padding:0 ;margin:30px 0 0 0 ;width:100% ;}
+body[mobile="1"] pages section content {margin:0 10% 0 10% ;width:80% ;}
+
+
+/* ######## pagesSection.css ######## */
+
+
+body[logged="0"] pages{display:block;}
+pages {display:none;}
+pages content {margin:0 auto;max-width:960px;display:block;height:100%;position:relative;}
+pages section {background-color:#fff;background-position: center;float:left;width:100%;background-size:cover;}
+
+pages section:nth-child(2) h1{display:none;}
+
+pages section content h1{text-align:center;font-size: 30pt;margin: 60px 0 30px 0;}
+
+pages section#section-home {height:500px;}
+
+pages section:last-child {padding-bottom:200px;}
+
+
+/* ######## pagesSectionBox.css ######## */
+
+
+pages section content box1 {padding:20px;border-radius:10px;background: rgba(2, 7, 27, 0.85);color:#fff;width:300px;position:absolute;left:30px;bottom:30px;}
+
+pages section content box1 bt1 {cursor:pointer;padding:5px 10px;border-radius:5px;background-color: #3899c4;float:left;}
+pages section content box1 p{margin-bottom:10px;}
+pages section content box1 h2{margin-bottom:10px;}
+
+pages section content box2 {margin-top:30px;border-radius:10px;background: #fff;color:#fff;width:300px;float:left;margin-right:30px;box-shadow: 0 3px 30px rgba(64,124,191,0.2);transition: all 0.3s ease 0s;overflow:auto;}
+pages section content box2 bt1 {margin:0 20px 20px 20px;cursor:pointer;padding:5px 10px;border-radius:5px;background-color: #3899c4;float:right;}
+pages section content box2 p{padding:0 20px 20px 20px;color:#999;background-color:#fff}
+pages section content box2 h2{padding:20px;color:#444;background-color:#fff}
+
+pages section content box2:hover{box-shadow: 0 3px 50px rgba(64,124,191,0.2);margin-top:0;}
+
+pages section content box2:last-child{margin-right:0;}
+
+pages section#section-outros-projetos content box2{}
+
+pages section#section-outros-projetos content box2 figure{background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+    height: 200px;
+    background-size: cover;}
+
+
+/* ######## pagesTop.css ######## */
+
+
+body[openlogin="1"] pages{display:none;}
+
+pages top{background-color:#fff;width:100%;float:left;}
+pages top logo {height: 40px;width: 100px;background-size: cover;background-repeat: no-repeat;background-position:center;float:left;margin:8px 0 0 8px;}
+pages top nav{float:right;}
+pages top nav a{float:right;color:#3899c4;margin: 25px 10px 5px 0px;font-size: 90%;border-right: 1px solid #80d8ff52;padding: 5px 10px 5px 0;}
+pages top nav a:first-child{border-right:0;margin-right:0;}
+
+
+/* ######## suite1.css ######## */
+
+
+body[suites='1'] pages top logo {background-image:url('/sistema8/img/logo/facedoctors.png');}
+
+
+/* ######## suite6.css ######## */
+
+
+body[suites='6'] window icon[action="print"]{display:none;}
+
+body[suites='6'] window[modules="users"] div input[name="crm"] {display:none;}
+body[suites='6'] view item user{display:none;}
+
+body[suites='6'] login #btInsertMedico{display:none !important;}
+
+
+/* ######## users.css ######## */
+
+

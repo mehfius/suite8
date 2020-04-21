@@ -1,0 +1,7 @@
+body[openlogin="1"] pages{display:none;}
+
+pages top{background-color:#fff;width:100%;float:left;}
+pages top logo {height: 40px;width: 100px;background-size: cover;background-repeat: no-repeat;background-position:center;float:left;margin:8px 0 0 8px;}
+pages top nav{float:right;}
+pages top nav a{float:right;color:#3899c4;margin: 25px 10px 5px 0px;font-size: 90%;border-right: 1px solid #80d8ff52;padding: 5px 10px 5px 0;}
+pages top nav a:first-child{border-right:0;margin-right:0;}

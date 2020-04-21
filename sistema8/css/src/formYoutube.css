@@ -1,0 +1,5 @@
+/* Youtube */
+
+form > div[type="youtube"] figure{cursor:pointer;background-color:#000;position:absolute;right: 10px;bottom: 10px;width: 70px;height: 40px;background-position:center center;background-size:100% auto;}
+form > div[type="youtube"][error="1"] input{background-color: #F2CBCB;}
+form > div[type="youtube"][error="1"] figure{display:none;}

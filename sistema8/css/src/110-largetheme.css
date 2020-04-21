@@ -1,0 +1,84 @@
+body[logged="1"]{background-image:none !important;}
+body > section { max-width: 1280px;margin:0 auto;width:95%;height:100%;}
+
+view{margin-top:70px;float:left;max-width:100%;}
+body view detalhes {overflow:auto hidden;white-space: nowrap;margin-left:2.5%;width:95%}
+
+body[logged="0"] view{opacity:0;transition: all 0.3s ease-in-out;}
+
+item[category]{ border:1px solid #fff;border-radius:10px;border-radius: 5px;}
+
+item > header {float:left;width:100%;font-size:120%;border-radius: 5px 5px 0 0;}
+item > footer {float:left;width:100%;}
+
+body[modules="colors"] item{ border-left:10px solid;width: 920px; }
+body[modules="category"] item{ border-left:10px solid;width: 920px; }
+item {padding-bottom: 2.5%;position:relative; float: left;  width: 100%;font-size: 80%;background-color:#fff;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
+
+item[me="1"]{cursor:pointer;}
+item[me="0"]{cursor:auto;}
+item[me="1"]:hover{box-shadow: 0 0 7px 0px #999;}
+
+item > p { float:left;line-height:1.5;padding-bottom:0;min-width:95%;padding: 2.5%;font-size:120%;}
+
+item detalhes {float:left;}
+
+item[me="0"] detalhes > figure{cursor:pointer;}
+item detalhes > figure{position:relative;background-position: center center;background-size:cover;margin:0 10px 0 0;}
+item detalhes > figure >label{position:absolute;right:10px;bottom:10px;padding: 5px;background-color: #ccc;color: #fff;}
+
+item data{margin:2.5%;float:right;}
+
+item > header > category {float:left;padding:2.5% 2.5% 0 2.5%;}
+
+item > header > pacientes {float:right;margin:2.5% 0 0 2.5%;}
+
+item > header > icon.icon-share2 {float:left;padding:2.5% 0 2.5% 2.5%;}
+
+
+item > pacientes > div {float:left;}
+item > pacientes > div > icon{margin-right:10px;}
+
+
+item > footer > medicos {float:left;padding:2.5% 2.5% 0 2.5%;white-space:nowrap}
+item > footer > medicos > div {float:right;}
+item > footer > medicos > div > icon{margin-right:10px;}
+
+item > footer > user {float:left;padding:2.5%;}
+item > footer > user > div {float:left;}
+item > footer > user > div > icon{margin-right:10px;}
+
+
+item > footer > share {float:right;padding:2.5% 2.5% 0 2.5%;}
+item > footer > share > div {cursor:auto;float:right;margin-left:10px;}
+item > footer > share > div > icon{margin-right:10px;}
+
+body[suites="1"] > header{background-color:#557cf2;}
+body[suites="1"] window{background-color:#557cf2;}
+body[suites="1"] > login{}
+body[suites="1"][notification="1"] > header icon.icon-bell{background-color:#fff;color:#557cf2;}
+body[suites="1"][filter="1"] > header icon.icon-search{background-color:#fff;color:#557cf2;}
+
+body[suites="2"] > header{background-color:#e47509;}
+body[suites="2"] window{background-color:#e47509;}
+body[suites="2"] > login{}
+
+body[suites="3"] > header{background-color:#bb153f;}
+body[suites="3"] window{background-color:#bb153f;}
+body[suites="3"] > login{}
+
+body[suites="4"] > header{background-color:#6cc781;}
+body[suites="4"] window{background-color:#6cc781;}
+body[suites="4"] > login{}
+
+body[suites="5"] > header{background-color:#f2a555;}
+body[suites="5"] window{background-color:#f2a555;}
+body[suites="5"] > login{}
+
+body[suites="6"] > header{background-color:#cd392e;}
+body[suites="6"] window{background-color:#cd392e;}
+body[suites="6"] > login{}
+
+body[suites="999"] > header{background-color:#0e7f18;}
+body[suites="999"] window{background-color:#0e7f18;}
+body[suites="999"] > login{background-color:#0e7f18;}

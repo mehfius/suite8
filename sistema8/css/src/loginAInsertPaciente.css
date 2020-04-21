@@ -1,0 +1,17 @@
+login.insertpaciente .pinsert    {display: block;}
+login.insertpaciente #name       {display:block;}
+login.insertpaciente #email      {display:block;}
+login.insertpaciente #password   {display:block;}
+login.insertpaciente #cpf        {display:block;}
+
+login.insertpaciente #identidade {display:block;}
+login.insertpaciente #telefone   {display:block;}
+login.insertpaciente #cep        {display:block;}
+login.insertpaciente #endereco   {display:block;}
+
+
+login.insertpaciente #btInsertPaciente {display: block;background-color:#444;color:#fff;}
+login.insertpaciente #btInsertMedico {display: block;}
+
+login.insertpaciente #btLogin   {display:block;}
+login.insertpaciente #btRecovery {display:block;}

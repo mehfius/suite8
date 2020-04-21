@@ -1,0 +1,52 @@
+/* Form Multiple */
+
+form div > multiple > button[selected="0"] {  background-color: #824F4F;}
+form div > multiple > button {  width: 100%;  text-align: left;  display: block;  border: none;  padding: 5px;  margin-right: 5px;  color: #fff;  margin: 0 5px 5px 0;}
+form div > multiple > button {  cursor: pointer;}
+
+form div > multiple > button[found="1"] {  display:block;}
+form div > multiple > button[found="0"] {  display:none;}
+
+form div > multiple > button[selected="1"] {  background-color: #cd4f4f;  }
+form div > multiple {  margin-top: 10px;  display: block;margin-left:10px;}
+form div > multiple {  overflow: auto;  position: relative;height: 210px;}
+
+form div.multiple > label{}
+form div.multiple > input {  width: 250px;text-indent:0;}
+
+/* Form Multiple Hidden*/
+
+form div[mouse="1"] > multiplehidden {display:block;}
+
+form div > multiplehidden {width:400px;border-radius:5px;padding:10px;display: none;left:10px;top:40px;z-index: 10;position: absolute;background-color:#444;}
+
+form div > multiplehidden > input{padding:10px;padding: 10px 0;text-indent: 10px;width: 100%;}
+
+form div > multiplehidden > icon{color:#fff;}
+
+form div[search="1"] > multiplehidden {display:block;}
+
+form div > multiplehidden .icon-cross{font-size: 80%;float: right;padding: 5px;background-color: #000;border-radius: 5px;margin-bottom: 10px;cursor: pointer;}
+
+form div > multiplehidden > opt[selected="0"] {}
+form div > multiplehidden > opt[selected="1"] {font-weight:bold;}
+
+form div > multiplehidden > opt {cursor:pointer;font-size:80%;display:none;width: 100%;padding: 5px 0; color: #fff;text-indent:5px;}
+form div > multiplehidden > opt:hover{background-color:#cd4f4f;color:#fff;}
+form div > multiplehidden > opt[found="1"] {display:block;}
+form div > multiplehidden > opt[found="0"] {display:none;}
+
+
+form div.multiplehidden > label {display:none;}
+
+
+form div > multipleview > div {margin-left:10px;margin-top:10px;float:left;}
+form div > multipleview > div > figure {background-color: #eee;border-radius: 5px 0 0 5px;width: 29px;height: 29px;float: left;display:none;}
+form div > multipleview > div > label {padding:5px 15px;float:left;background-color:#cd4f4f;color:#fff;font-size:80%;border-radius:5px 0px 0px 5px;}
+form div > multipleview > div > icon {cursor:pointer;background-color: #824F4F;padding: 7px;float: left;color: #fff;font-size: 10px;width: 11px;height: 11px;border-radius:0 5px 5px 0;}
+
+
+form div > multipleview > add{cursor:pointer;background-color: #444;color: #fff;cursor: pointer;float: left;border-radius: 5px;margin-left: 10px;    margin-top: 10px;}
+form div > multipleview > add > icon {float:left;font-size: 10px;padding: 7px;}
+
+form div > multipleview > add > label {float:left;padding:5px 10px 5px 0;font-size:80%;cursor:pointer;}

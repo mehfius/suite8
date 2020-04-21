@@ -1,0 +1,11 @@
+body[modules='pacientes'] view item user{display:none;}
+body[modules='pacientes'] view item detalhes{margin-left:0;}
+body[modules='pacientes'] view item data{margin:2%;}
+
+body[modules="pacientes"] view item {height:64px;padding-bottom:0;}
+body[modules="pacientes"] view item detalhes{float:left;width:auto;padding:0;position:absolute;left:0;}
+body[modules="pacientes"] view item detalhes figure{width:64px;height:64px;display:none;}
+body[modules="pacientes"] view item p{min-width:auto;line-height:1;margin-left:64px;}
+
+
+body[modules="pacientes"] view item detalhes figure:nth-child(-n+1){display:block;}

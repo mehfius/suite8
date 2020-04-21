@@ -1,0 +1,80 @@
+body[logged="1"] login{transform: translateX(-50%) translateY(-50%) scale(0.000001);transition: all 1s ease-in-out;}
+body[logged="0"] login{transform: translateX(-50%) scale(1);transition: all 1s ease-in-out;}
+
+
+
+body[openlogin="1"] login {display:block !important;}
+
+login {display:none;width:400px;position:absolute;transform: translateX(-50%);left: 50%;z-index:1;}
+
+login h1{text-align:center;font-size:500%;}
+login p {text-align:center;padding:20px;}
+
+
+
+login form input {font-size:120%;border-radius:3px;text-indent:15px;border: 0;float: left;height: 40px;padding: 0;outline: none;margin-bottom: 10px;width: 100%;}
+
+login #name           {display:none}
+login #email          {display:none}
+login #password       {display:none}
+login #cpf            {display:none}
+login #crm            {display:none}
+login #userstipos     {display:none}
+
+login #identidade     {display:none}
+login #telefone       {display:none}
+login #cep            {display:none}
+login #endereco       {display:none}
+
+login #btRecovery     {display:none;float:right;text-decoration:underline;padding:5px;margin-top:20px;}
+login #btInsert       {display:none;float:right;text-decoration:underline;padding:5px;margin-top:20px;}
+login #btInsertPaciente {display:none;padding:5px;width:49%;float:left;background-color:#fff;margin-bottom:10px;}
+login #btInsertMedico {display:none;padding:5px;width:49%;float:right;background-color:#fff;margin-bottom:10px;}
+login #btLogin        {display:none;float:left;text-decoration:underline;padding:5px;margin-top:20px;}
+
+
+
+login p               {display: none;}
+
+
+
+login form icon {width: 18px;height: 40px;float: left;line-height: 2.6;text-align: center;color: #fff;background-color: transparent;margin: 0;margin-bottom: 10px}
+
+
+
+
+
+login button:focus {box-shadow: none;  outline: none}
+
+login form button.loading {background-color: transparent}
+
+login form button.error {background-color: transparent}
+
+login form button.sucess {background-color: transparent}
+
+login button {border-radius:3px;height:40px;cursor: pointer;float: right;border: 0;box-shadow: none;background-color: transparent;outline: none;text-decoration:none;font-size:120%;}
+
+login form button#status{background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
+
+login form {float:left;padding: 30px;width:340px;}
+
+login options{position:absolute;left:0;bottom:0;margin:30px 30px 30px 30px;}
+
+login options button{padding:5px;font-size:80%;margin-right:5px;float:left;background-color:#fff;text-transform: none;}
+
+login btclose {position: absolute;right: 0;top: 0;padding: 5px;line-height: 0.6;border-radius: 3px;margin: 10px;background-color: #444;float: left;color: #fff;cursor:pointer;}
+
+login form input:-webkit-autofill,
+login form input:-webkit-autofill:hover, 
+login form input:-webkit-autofill:focus,
+login form textarea:-webkit-autofill,
+login form textarea:-webkit-autofill:hover,
+login form textarea:-webkit-autofill:focus,
+login form select:-webkit-autofill,
+login form select:-webkit-autofill:hover,
+login form select:-webkit-autofill:focus {
+
+  -webkit-background-color: #efefef !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+
+}

@@ -1,0 +1,81 @@
+Options +FollowSymlinks
+RewriteEngine on
+Header set Access-Control-Allow-Origin "*"
+#php_value allow_url_fopen on
+#php_value allow_url_include 1
+
+#RewriteCond %{HTTP_HOST} ^www\.suite8\.com\.br$ [NC]
+#RewriteRule ^(.*)$ https://suite8.com.br/$1 [R=301,L]
+
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Redirect 301 / http://stockreleases-com-br.umbler.net/releases/
+
+## Database ##
+
+	RewriteRule ^database$							/database/index.php	[NC]
+
+## Google ##
+
+	#RewriteRule ^googlea2b0361fdc390012.html$ 		/site/webmastertools/googlea2b0361fdc390012.html	[NC]
+	#RewriteRule ^robots.txt$ 						/site/webmastertools/robots.txt	[NC]
+
+##
+
+##ssl
+
+#http://www.teste.past8.com.br/.well-known/acme-challenge/
+
+##
+
+	RewriteRule ^([^/]*)$							/admin/index.php	[NC]
+
+## Custom ##
+
+	RewriteRule ^past8/$											  /admin/index.php?suites=1&	[NC]
+	RewriteRule ^ark8/$											    /admin/index.php?suites=2&	[NC]
+	RewriteRule ^marcha8/$											/admin/index.php?suites=3&	[NC]
+  RewriteRule ^dog8/$											    /admin/index.php?suites=4&	[NC]
+  RewriteRule ^vet8/$											    /admin/index.php?suites=5&	[NC]
+  RewriteRule ^resultadoreal/$								/admin/index.php?suites=6&	[NC] 
+  
+ 	RewriteRule ^sistema8/$											/admin/index.php?suites=999&	[NC] 
+
+##
+
+	RewriteRule ^jsonUpdate/([^/]*)/([^/]*)/([^/]*)$			/admin/json/jsonUpdate.php?area=$1&acao=$2&codigo=$3	[NC]
+
+	RewriteRule ^json/([^/]*)/([^/]*)/([^/]*)$					/admin/json/index.php?area=$1&acao=$2&codigo=$3	[NC]
+	
+
+
+ErrorDocument 400 ?erro=400
+ErrorDocument 401 ?erro=401
+ErrorDocument 403 ?erro=403
+ErrorDocument 404 ?erro=404
+ErrorDocument 500 ?erro=500
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+
+# 1 ANO
+<FilesMatch "\.(ico|pdf|flv)$">
+Header set Cache-Control "max-age=1800, public"
+</FilesMatch>
+# 1 SEMANA
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=1800, public"
+</FilesMatch>
+# 2 DIAS
+<FilesMatch "\.(xml|txt|css|js)$">
+Header set Cache-Control "max-age=1800, proxy-revalidate"
+</FilesMatch>
+# 1 MINUTO
+<FilesMatch "\.(html|htm|php)$">
+Header set Cache-Control "max-age=60, private, proxy-revalidate"
+</FilesMatch>

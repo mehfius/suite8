@@ -1,0 +1,79 @@
+
+view{margin-top:70px;float:left;width:930px;}
+
+
+body[logged="0"] view{opacity:0;transition: all 0.3s ease-in-out;}
+
+item[category]{ width: 920px;}
+body[modules="colors"] item{ border-left:10px solid;width: 920px; }
+body[modules="category"] item{ border-left:10px solid;width: 920px; }
+item {position:relative; float: left;  width: 100%;font-size: 80%;background-color:#fff;transition: 0.3s background-color ease-in-out;margin-bottom:10px;}
+
+
+
+item[me="1"]{cursor:pointer;}
+item[me="0"]{cursor:auto;background-color:#ddd;}
+
+
+item > p { float:left;line-height:1.5;padding-bottom:0;min-width:95%;padding: 2.5%;font-size:120%;}
+
+item detalhes {float:left;}
+
+item[me="0"] detalhes > figure{cursor:pointer;}
+item detalhes > figure{position:relative;background-position: center center;background-size:cover;margin:0 10px 0 0;}
+item detalhes > figure >label{position:absolute;right:10px;bottom:10px;padding: 5px;background-color: #ccc;color: #fff;}
+item data{position:absolute;right:0;top:0;margin:2.5%;line-height: 1.2;font-size: 100%;width: 100px;text-align: right;}
+
+
+
+item category {float:left;padding:2.5% 2.5% 0 2.5%;font-size:120%;line-height:1;}
+
+item > pacientes {float:left;margin:10px;}
+item > pacientes > div {float:left;padding:5px 10px;background-color:#eee;border-radius:5px;margin:0 5px 5px 0;}
+item > pacientes > div > icon{margin-right:10px;}
+
+
+item > medicos {float:left;margin:10px;}
+item > medicos > div {float:left;padding:5px 10px;background-color:#eee;border-radius:5px;margin:0 5px 5px 0;}
+item > medicos > div > icon{margin-right:10px;}
+
+item > user {float:left;margin:10px;}
+item > user > div {float:left;padding:5px 10px;background-color:#eee;border-radius:5px;margin:0 5px 5px 0;}
+item > user > div > icon{margin-right:10px;}
+
+
+item > share {float:right;margin:10px;}
+item > share > div {cursor:auto;float:left;padding:5px 10px;background-color:#eee;border-radius:5px;margin:0 5px 5px 0;}
+item > share > div > icon{}
+
+body[suites="1"] > header{background-color:#557cf2;}
+body[suites="1"] window{background-color:#557cf2;}
+body[suites="1"] > login{background-color:#557cf2;}
+
+body[suites="2"] > header{background-color:#ff6600;}
+body[suites="2"] window{background-color:#ff6600;}
+body[suites="2"] > login{background-color:#ff6600;}
+
+body[suites="3"] > header{background-color:#bb153f;}
+body[suites="3"] window{background-color:#bb153f;}
+body[suites="3"] > login{background-color:#bb153f;}
+
+body[suites="4"] > header{background-color:#6cc781;}
+body[suites="4"] window{background-color:#6cc781;}
+body[suites="4"] > login{background-color:#6cc781;}
+
+body[suites="5"] > header{background-color:#f2a555;}
+body[suites="5"] window{background-color:#f2a555;}
+body[suites="5"] > login{background-color:#f2a555;}
+
+body[suites="6"] > header{background-color:#cd392e;}
+body[suites="6"] window{background-color:#cd392e;}
+body[suites="6"] > login{background-color:#cd392e;}
+
+
+body[suites="999"] > header{background-color:#0e7f18;}
+body[suites="999"] window{background-color:#0e7f18;}
+body[suites="999"] > login{background-color:#0e7f18;}
+
+
+

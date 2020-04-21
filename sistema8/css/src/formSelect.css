@@ -1,0 +1,42 @@
+/* Select */
+
+window form > div > icon.icon-arrow-down {cursor:pointer;background-color:#f6f6f6;position: absolute;right: 1px;bottom: 2px;line-height: 3;width:50px;height:50px;text-align:center;border-left:1px solid #fff;}
+window form > div > icon.icon-cog {background-color:#f6f6f6;cursor:pointer;position: absolute;right: 2px;top: 15px;margin:0;line-height: 2.9;border-left:1px solid #fff;z-index:10;height:50px;width:50px;text-align:center;}
+
+window form select {width:90%;border: 0;opacity:0;position:absolute;top:0;height: 100%;margin-left:10px;}
+window form select option{border:0;padding: 5px;}
+
+window form > select > option:first {color: #999;}
+window form > div > placeholder{display:block;}
+/* Select1 */
+window form div[type="select"] label {}
+window form select1{float: left;overflow-x: hidden;overflow-y: auto;}
+window form select1 > button {  margin:0 5px 0 0;}
+window form select1 > button[selected="0"] {background-color: #fff;}
+window form select1 > button[selected="1"] {background-color: #444;color:#fff;}
+
+/* Select2 */
+window form div[type="select"] label {}
+window form div[type="select"]{position:relative;}
+
+window form select2 {margin-top:5px;z-index:999;border: 1px solid #ccc;display:none;height: 196px;float: left;overflow-x: hidden;overflow-y: auto;width:293px;position:absolute;background-color:#eee;}
+window form select2 > button { text-align:left;width:100%; color:#444;margin-right:5px;cursor: pointer;  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .135);  border: 0;  padding: 5px 10px;  text-transform: capitalize; }
+window form select2 > button[selected="0"] {background-color: #fff;}
+window form select2 > button[selected="1"] {background-color: #444;color:#fff;}
+window form select2 > button:hover {background-color:#444;color:#fff;}
+
+window form div[type="select2"]{padding:25px 10px;}
+window form div[type="select2"] label{margin:1px;}
+window form div[type="select2"]:hover select2{display:block;}
+window form select2 > text {float:left;text-align:left;width:100%; color:#444;margin-right:5px;cursor: pointer;  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .135);  border: 0;  padding: 5px 10px;  text-transform: capitalize; }
+
+/* Select 3 */
+window form select3 {border:1px solid #ccc;display:none;margin:5px 0 0 10px;z-index:999;float: left;overflow-x: hidden;overflow-y: auto;position:absolute;background-color:#fff;max-height:198px;min-width: 80%;padding:5px;}
+window form select3 > opt {float:left;width:100%;cursor:pointer;display:none;height:24px;font-size:90%;margin-bottom:5px;}
+window form select3 > opt:hover{background-color:#eee;}
+window form select3 > opt:nth-last-child(1){margin-bottom:0;}
+window form select3 > opt[selected="true"] label{font-weight:bold;}
+window form select3 > opt > label {float:left;padding: 5px 5px 0 5px;cursor:pointer;font-size:90%;}
+window form select3 > opt > figure {background-color:#444;width:24px;height:24px;float:left;background-position:center center;background-size:cover;background-repeat:no-repeat;}
+window form div > input[name="findernew"] {text-indent:50px;}
+window form div labelfigure {background-size: cover;background-position: center;background-color: #444;width: 50px;height: 50px;position: absolute;left: 15px;bottom: 5px;}

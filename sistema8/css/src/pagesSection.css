@@ -1,0 +1,12 @@
+body[logged="0"] pages{display:block;}
+pages {display:none;}
+pages content {margin:0 auto;max-width:960px;display:block;height:100%;position:relative;}
+pages section {background-color:#fff;background-position: center;float:left;width:100%;background-size:cover;}
+
+pages section:nth-child(2) h1{display:none;}
+
+pages section content h1{text-align:center;font-size: 30pt;margin: 60px 0 30px 0;}
+
+pages section#section-home {height:500px;}
+
+pages section:last-child {padding-bottom:200px;}
